@@ -26,6 +26,66 @@ jalankan program di terminal git pada vscode dengan "npm run dev"
 - Fitur checkout dengan sistem pembayaran dummy
 - Dashboard admin untuk mengelola produk, kategori, dan pengguna
 
+# CARA KONSTRIBUSI #
+Untuk berkontribusi pada proyek ,ikuti langkah-langkah berikut:
+
+---
+
+### **1. Fork Repositori**  
+- Buka repositori GitHub: [ritawarni/Perancangan-Desain-UI-UX-Website-Penjualan-Biji-Kopi](https://github.com/ritawarni/Perancangan-Desain-UI-UX-Website-Penjualan-Biji-Kopi).  
+- Klik tombol **Fork** (di kanan atas) untuk membuat salinan repositori ke akun GitHub Anda.  
+
+---
+
+### **2. Clone Repositori ke Lokal**  
+Setelah fork, clone repositori ke komputer Anda dengan perintah berikut:  
+```bash
+git clone https://github.com/USERNAME/Perancangan-Desain-UI-UX-Website-Penjualan-Biji-Kopi.git
+```
+Gantilah `USERNAME` dengan nama akun GitHub Anda.  
+
+Masuk ke direktori proyek:  
+```bash
+cd Perancangan-Desain-UI-UX-Website-Penjualan-Biji-Kopi
+```
+
+---
+
+### **3. Buat Branch Baru**  
+Sebelum mulai melakukan perubahan, buat branch baru untuk fitur atau perbaikan yang ingin Anda tambahkan:  
+```bash
+git checkout -b nama-branch-anda
+```
+Contoh:
+```bash
+git checkout -b update-layout-homepage
+```
+
+---
+
+### **4. Lakukan Perubahan dan Commit**  
+Edit file yang diperlukan sesuai kontribusi Anda. Setelah selesai, jalankan perintah berikut:  
+```bash
+git add .
+git commit -m "Menambahkan fitur X atau memperbaiki bug Y"
+```
+
+---
+
+### **5. Push ke GitHub**  
+Kirim perubahan ke repository fork Anda:  
+```bash
+git push origin nama-branch-anda
+```
+
+---
+
+### **6. Buat Pull Request (PR)**  
+- Buka repository fork Anda di GitHub.  
+- Klik tombol **Compare & pull request**.  
+- Jelaskan perubahan yang Anda buat.  
+- Klik **Create pull request** untuk mengajukan kontribusi ke repository utama.  
+
 # Preview Design User Interface # 
 1. Landing Page
    ![image](https://github.com/user-attachments/assets/8241bbca-18c7-4b46-ae6e-c718ebd776aa)
